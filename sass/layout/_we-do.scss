@@ -1,7 +1,14 @@
-/* What we do section */
+@media screen and (min-width: 480px) {
+  .we-do {
+    display: none;
+  }
+}
 
-.we-do {
-  padding-bottom: 94px;
+@media screen and (min-width: 1200px) {
+  .we-do {
+    display: block;
+    padding-bottom: 94px;
+  }
 
   .we-do-list {
     display: flex;
@@ -24,32 +31,27 @@
     background-color: $secondary-text-background-color;
     color: $secondary-text-color;
   }
-}
 
-.we-do-title {
-  margin-top: 0px;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: $main-title-color;
-}
+  .we-do-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $main-title-color;
+  }
 
-.team .team-list {
-  width: 270px;
-  height: 422px;
-}
+  .we-do-list .img-in {
+    display: block;
+  }
 
-.we-do-list .img-in {
-  display: block;
-}
+  .we-do-list .we-do-list-item:not(:last-child) {
+    margin-right: 30px;
+  }
 
-.we-do-list .we-do-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.we-do-list-item {
-  position: relative;
+  .we-do-list-item {
+    position: relative;
+  }
 }

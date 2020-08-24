@@ -1,6 +1,6 @@
 // ОБЩИЕ СТИЛИ ХЭДЭР
 
-.container {
+.poz {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -103,6 +103,11 @@
         display: none;
       }
     }
+
+    &:hover,
+    &:focus {
+      fill: $accent-color;
+    }
   }
 
   .nav-list-link.current::after {
@@ -178,11 +183,11 @@
 @media screen and (max-width: 1199px) {
   .contact-list-item:not(:last-child) {
     margin-bottom: 10px;
-  }
 
-  .contact-list {
-    display: flex;
-    flex-direction: column;
+    .contact-list {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 
@@ -190,7 +195,10 @@
 
 @media screen and (min-width: 1200px) {
   .header {
-    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     .container {
       justify-content: space-between;
     }
