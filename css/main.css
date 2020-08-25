@@ -813,6 +813,8 @@ body {
     line-height: 1.14;
   }
   .contact-list-link {
+    display: flex;
+    align-items: center;
     font-size: 12px;
     line-height: 1.17;
   }
@@ -1376,9 +1378,7 @@ body {
     margin-bottom: 0;
     margin-right: 12px;
   }
-  .social-list {
-    margin-bottom: 0;
-  }
+  .social-list,
   .footer-list {
     margin-bottom: 0;
   }
