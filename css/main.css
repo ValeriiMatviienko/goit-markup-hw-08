@@ -670,7 +670,6 @@ body {
 }
 
 .poz {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -718,6 +717,9 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    position: relative;
+  }
   .menu-wrapper {
     z-index: 999;
     display: none;

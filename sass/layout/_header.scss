@@ -1,7 +1,7 @@
 // ОБЩИЕ СТИЛИ ХЭДЭР
 
 .poz {
-  position: relative;
+  // position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,6 +48,9 @@
 // СТИЛИ ДЛЯ ТЕЛЕФОНА
 
 @media screen and (max-width: 767px) {
+  .header {
+    position: relative;
+  }
   .menu-wrapper {
     z-index: 999;
     display: none;
