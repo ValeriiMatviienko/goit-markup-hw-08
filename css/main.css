@@ -1582,6 +1582,7 @@ body {
 }
 
 .ex-img {
+  max-width: 100%;
   margin-bottom: 20px;
   display: block;
 }
