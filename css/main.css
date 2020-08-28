@@ -402,7 +402,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 532px;
+  width: 450px;
   /* height: 581px; */
   padding: 40px;
   display: flex;
@@ -418,7 +418,7 @@ body {
 .drop-title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.5;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -506,8 +506,8 @@ body {
 
 .checkbox-text {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 12px;
+  line-height: 2;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -606,19 +606,17 @@ body {
   border: none;
 }
 
-@media screen and (min-width: 480px) {
-  .butt-send {
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    background: #2196f3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: none;
-  }
+.butt-send {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
 }
 
 .team-social-link {
