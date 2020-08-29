@@ -841,8 +841,8 @@ body {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .header .container {
-    justify-content: space-between;
+  .header .poz {
+    justify-content: center;
   }
   .nav-list-item {
     position: relative;
