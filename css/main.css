@@ -1422,7 +1422,7 @@ body {
   }
   .footer .wrapcont {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   .input-text {
     width: 358px;
