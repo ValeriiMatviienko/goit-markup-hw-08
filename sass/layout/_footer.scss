@@ -1,6 +1,7 @@
 /* Footer */
 
 .footer {
+  max-width: 1600px;
   background-color: $footer-background-color;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -118,6 +119,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+
   .foot-wrap {
     display: flex;
     justify-content: space-between;
@@ -128,9 +133,17 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .foot-cont {
+    text-align-last: left;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    width: 100%;
+  }
+
   .footer .container {
     display: flex;
     justify-content: space-between;

@@ -637,7 +637,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 480px;
     padding-right: 15px;
@@ -909,8 +909,15 @@ body {
   color: #ffffff;
 }
 
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero {
+    width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -1275,6 +1282,7 @@ body {
 
 /* Footer */
 .footer {
+  max-width: 1600px;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1391,6 +1399,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    width: 100%;
+  }
   .foot-wrap {
     display: flex;
     justify-content: space-between;
@@ -1400,9 +1411,15 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .foot-cont {
+    text-align-last: left;
+  }
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    width: 100%;
+  }
   .footer .container {
     display: flex;
     justify-content: space-between;

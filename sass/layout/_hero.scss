@@ -29,9 +29,15 @@
   text-transform: uppercase;
   color: $secondary-text-color;
 }
+@media screen and (min-width: 768px) {
+  .hero {
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   .hero {
+    width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
   }
