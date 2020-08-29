@@ -909,7 +909,7 @@ body {
   color: #ffffff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .hero {
     width: 100%;
   }
@@ -1420,7 +1420,7 @@ body {
   .footer {
     width: 100%;
   }
-  .footer .container {
+  .footer .wrapcont {
     display: flex;
     justify-content: space-between;
   }
