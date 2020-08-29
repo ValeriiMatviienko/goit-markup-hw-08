@@ -725,8 +725,6 @@ body {
     background-color: #ffffff;
     padding-top: 120px;
     padding-bottom: 60px;
-    padding-left: 120px;
-    padding-right: 120px;
     top: 100%;
     right: 0;
     width: 100%;
@@ -745,9 +743,7 @@ body {
     margin-bottom: 60px;
   }
   .contact-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
   .contact-list-item:not(:last-child) {
     margin-bottom: 16px;
